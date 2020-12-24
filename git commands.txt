@@ -1,0 +1,18 @@
+git status : It's shows the present scenario
+git init : initialize the repository
+git add --a & . : it's stages the all files which are in modified section
+git add file_name : its stages the particular file 
+git log : to see the all commits
+git log -n (n -> n states the number) : to see the last number of commit log or record
+git log -p : 
+git log --pretty=short,full : shorts shows the short description of the commits and full shows the brief description 			      of commits.
+git log --since 2.days(days,months,year) : shows the commits of last 2 days.
+git log --pretty= format:"%h--%m" :
+git commit -m "commit's description" 
+git rm -rf .git : to remove the local repository
+git clone %path% (shift+insert) : clone the remote repository 
+git commit --amend :
+git diff : 
+touch .gitignore
+git checkout file_name
+git checkout -f
