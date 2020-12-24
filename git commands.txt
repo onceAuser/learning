@@ -1,3 +1,5 @@
+git config --global user.name "Username"
+git config --global user.email "user_Email"
 git status : It's shows the present scenario
 git init : initialize the repository
 git add --a & . : it's stages the all files which are in modified section
@@ -16,3 +18,5 @@ git diff :
 touch .gitignore
 git checkout file_name
 git checkout -f
+git checkout -b branch_name : for creating the branch
+git checkout branch_name : for changing the branch
