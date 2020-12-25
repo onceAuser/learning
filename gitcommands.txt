@@ -1,0 +1,26 @@
+    1  git status
+    2  git diff
+    3  ~git add 
+    4  git diff --stage
+    5  git diff --staged
+    6  git commit -a -m "final commit to staged"
+    7  git diff --staged
+    8  git status
+    9  git commit -a -m "last second commit before making remote repository"
+   10  git status
+   11  git add .
+   12  git status
+   13  git commit -m "last second commit"
+   14  git status
+   15  mkdir testing
+   16  cd testing
+   17  touch test1.txt
+   18  cat > test.txt
+   19  cat test1.txt
+   20  cd ..
+   21  git add .
+   22  git status
+   23  git commit -m "final commit before making repository"
+   24  git status
+   25  history
+   26  history > gitcommands.txt
