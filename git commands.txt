@@ -6,7 +6,8 @@ git add --a & . : it's stages the all files which are in modified section
 git add file_name : its stages the particular file 
 git log : to see the all commits
 git log -n (n -> n states the number) : to see the last number of commit log or record
-git log -p : 
+git log -p : it will show all the commits and also the modification from the previous stage
+
 git log --pretty=short,full : shorts shows the short description of the commits and full shows the brief description 			      of commits.
 git log --since 2.days(days,months,year) : shows the commits of last 2 days.
 git log --pretty= format:"%h--%m" :
@@ -14,10 +15,15 @@ git commit -m "commit's description"
 git rm -rf .git : to remove the local repository
 git clone %path% (shift+insert) : clone the remote repository 
 git commit --amend :
-git diff : 
+git diff
+git diff --staged :checking the diff in modified and staged files. 
 touch .gitignore
 git checkout file_name
 git checkout -f
 git checkout -b branch_name : for creating the branch
 git checkout branch_name : for changing the branch
-git checkout 
+git rm file_name : to remove the file.(it will stage the file but will not commit)
+git mv first.txt first_renamed.txt : to renaming the file_name
+git rm --cached file_name : it will removed from cached data in otherwords git wont be tracking this file in future(Note : if it is in .gitignore file).
+ 
+
