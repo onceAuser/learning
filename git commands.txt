@@ -20,3 +20,4 @@ git checkout file_name
 git checkout -f
 git checkout -b branch_name : for creating the branch
 git checkout branch_name : for changing the branch
+git checkout 
